@@ -24,24 +24,24 @@ Not so important tools
 
 How to upload the prework
 --------------------------
-1. Clone the repo in your machine.
+1- Clone the repo in your machine.
 ```
 git clone repo_url_given_by_github
 ```
-2. Create a new branch with your name.
+2- Create a new branch with your name.
 ```
 git checkout -b YOUR_NAME
 ``` 
-3. Do the task.
-4. Tell git which files to add or add all of them.
+3- Do the task.
+4- Tell git which files to add or add all of them.
 ```
 git add -A
 ```
-5. Commit the files with a nice message.
+5- Commit the files with a nice message.
 ```
 git commit -m "A NICE MESSAGE HERE"
 ```
-6. Push the files to the repo.
+6- Push the files to the repo.
 ```
 git push origin THE_BRANCH_NAME
 ```
