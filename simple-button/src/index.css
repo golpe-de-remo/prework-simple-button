@@ -3,3 +3,12 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+button {
+	margin-left: 300px;
+	height: 200px;
+	width: 800px;
+	font-size: 100px;
+	border: none;
+	background-color: tomato;
+}

@@ -1,9 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import './index.css';
 
+
+var Button = React.createClass({
+	render: function() {
+		return <button>PRESS ME</button>
+	}
+});
+
 ReactDOM.render(
-  <App />,
+  <Button />,
   document.getElementById('root')
 );
