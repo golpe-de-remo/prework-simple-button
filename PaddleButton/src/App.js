@@ -1,18 +1,15 @@
-import React, { Component } from 'react';
-import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-        <div className="wrapper">
-          <button>Paddle!</button>
-        </div>
+var React = require('react');
 
-      
+var App = React.createClass({
+  scream: function () {
+    alert("That's a paddlin'!");
+  },
 
-    );
+  render: function () {
+    return <button onClick={this.scream}>Paddle</button>;
   }
-}
+});
 
 
 export default App;
